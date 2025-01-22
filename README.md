@@ -1,8 +1,43 @@
-# React + Vite
+# **Squid Game Themed Profile**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun Squid Game-inspired profile page and Grid built with **React**.
 
-Currently, two official plugins are available:
+## **Live Demo**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version of the project: [Squid Game Themed Profile](https://e-cell-task-nu.vercel.app/).
+
+## **Screenshots**
+
+![Homepage Screenshot](assets/s1.png)  
+*Homepage displaying the profile page.*
+
+![Instagram Card](assets/s2.png)  
+*Instagram card with profile and follow button.*
+
+![Mobile View](assets/s3.png)  
+*Mobile responsive view of the profile page.*
+
+## **Installation**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/squid-game-profile.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd squid-game-profile
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Run the app locally:
+   ```bash
+   npm start 
+
+## **Technologies Used**
+
+-React
+-Tailwind CSS
+-Vercel for deployment
+
