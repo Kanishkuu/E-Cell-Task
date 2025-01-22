@@ -2,10 +2,6 @@
 
 A fun Squid Game-inspired profile page and Grid built with **React**.
 
-## **Live Demo**
-
-Check out the live version of the project: [Squid Game Themed Profile](https://e-cell-task-nu.vercel.app/).
-
 ## **Screenshots**
 
 ![Homepage Screenshot](src/assets/s1.png)
@@ -17,11 +13,11 @@ Check out the live version of the project: [Squid Game Themed Profile](https://e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/squid-game-profile.git
+   git clone https://github.com/Kanishkuu/E-Cell-Task.git
 
 2. Navigate to the project directory:
    ```bash
-   cd squid-game-profile
+   cd E-cell Task
 
 3. Install dependencies:
    ```bash
@@ -35,6 +31,5 @@ Check out the live version of the project: [Squid Game Themed Profile](https://e
 
 - React
 - Tailwind CSS
-- Vercel for deployment
 
 
