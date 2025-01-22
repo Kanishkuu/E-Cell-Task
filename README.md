@@ -2,6 +2,10 @@
 
 A fun Squid Game-inspired profile page and Grid built with **React**.
 
+## **Live Demo**
+
+Check out the live version of the project: [Squid Game Themed Profile](https://e-cell-task-nu.vercel.app/).
+
 ## **Screenshots**
 
 ![Homepage Screenshot](src/assets/s1.png)
@@ -31,5 +35,6 @@ A fun Squid Game-inspired profile page and Grid built with **React**.
 
 - React
 - Tailwind CSS
+- Vercel for deployment
 
 
