@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'YourCustomFont';
+    src: url('/src/assets/GameOfSquids.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar({ style }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 w-full bg-white shadow-md z-10">
+    <div className="sticky top-0 w-full bg-white shadow-md z-10" style={style}>
       <div className="container mx-auto px-4">
         {/* Mobile */}
         <div className="flex justify-between items-center p-4 md:hidden">
