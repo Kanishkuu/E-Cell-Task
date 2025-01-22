@@ -8,14 +8,10 @@ Check out the live version of the project: [Squid Game Themed Profile](https://e
 
 ## **Screenshots**
 
-![Homepage Screenshot](assets/s1.png)  
-*Homepage displaying the profile page.*
+![Homepage Screenshot](src/assets/s1.png)
+![Instagram Card](src/assets/s2.png)
+![Mobile View](src/assets/s3.png)
 
-![Instagram Card](assets/s2.png)  
-*Instagram card with profile and follow button.*
-
-![Mobile View](assets/s3.png)  
-*Mobile responsive view of the profile page.*
 
 ## **Installation**
 
@@ -37,7 +33,8 @@ Check out the live version of the project: [Squid Game Themed Profile](https://e
 
 ## **Technologies Used**
 
--React
--Tailwind CSS
--Vercel for deployment
+- React
+- Tailwind CSS
+- Vercel for deployment
+
 
