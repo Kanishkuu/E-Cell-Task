@@ -2,6 +2,10 @@
 
 A responsive React application featuring interactive components and navigation.
 
+## Live Demo
+
+Check out the live deployed version of this project [here](YOUR_DEPLOYED_LINK).
+
 ## Features
 
 - Interactive color-changing grid puzzle
