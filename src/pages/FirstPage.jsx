@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import logo from '../assets/ecellLogo.png';
@@ -21,7 +20,7 @@ function FirstPage() {
         } else {
           clearInterval(intervalId);
         }
-      }, 300);
+      },300);
     }
   };
 
@@ -30,19 +29,19 @@ function FirstPage() {
       <Navbar />
       <div className="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row justify-center items-center gap-4 p-3 py-10">
         {/* Gradient */}
-        <div className="w-80 h-80 md:w-full md:col-span-1 lg:w-80 order-3 md:order-1">
-          <div className="w-full h-full rounded-lg shadow-lg bg-gradient-to-br from-blue-700 to-pink-600"></div>
+        <div className="w-80 h-80 md:w-full md:col-span-2 lg:w-80 order-3 md:order-1">
+          <div className="w-full h-full rounded-lg shadow-lg bg-gradient-to-br from-[#3300FF] to-[#FA00FF]"></div>
         </div>
 
         {/* Image */}
-        <div className="w-80 h-80 md:w-full md:h-80 lg:w-80 order-2 md:order-2">
+        <div className="w-80 h-80 md:w-full md:h-80 lg:w-80 order-2 md:order-1 md:col-span-1">
           <div className="w-full h-full rounded-lg border-2 border-black overflow-hidden">
             <img src={logo} alt="Description" className="w-full h-full object-cover" />
           </div>
         </div>
 
         {/* Grid */}
-        <div className="w-80 h-80 md:w-full md:h-80 lg:w-80 order-1 md:order-2">
+        <div className="w-80 h-80 md:w-full md:h-80 lg:w-80 order-1 md:order-2 md:col-span-1">
           <div
             className="w-full h-full rounded-lg bg-gray-200 overflow-hidden"
             style={{ boxShadow: 'inset 0 1px 4px 0 rgba(0, 0, 0, 0.5)' }}
@@ -54,7 +53,6 @@ function FirstPage() {
                   className={`${
                     arr.includes(i) || i === 8 ? 'bg-[#800000]' : 'bg-[#034694]'
                   } text-white flex justify-center items-center rounded-lg p-2 cursor-pointer`}
-                  id={i + 1}
                   onClick={() => handleClick(i)}
                 ></div>
               ))}
