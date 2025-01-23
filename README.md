@@ -1,40 +1,102 @@
-# **Squid Game Themed Profile**
+# E-Cell MNNIT Recruitment Task
 
-A fun Squid Game-inspired profile page and Grid built with **React**.
+A responsive React application featuring interactive components and navigation.
 
-## **Live Demo**
+## Features
 
-Check out the live version of the project: [Squid Game Themed Profile](https://e-cell-task-nu.vercel.app/).
+- Interactive color-changing grid puzzle
+- Responsive navigation with mobile support
+- Profile page with social media integration
+- Modern UI with animations and transitions
 
-## **Screenshots**
+## Screenshots
 
-![Homepage Screenshot](src/assets/s1.png)
-![Instagram Card](src/assets/s2.png)
+### Home Page
+
+![Home Page](src/assets/s2.png)
+_Interactive grid puzzle and E-Cell logo display_
+
+### Profile Grid
+
+![Profile Grid](src/assets/s1.png)
+_Personal profile with Instagram integration_
+
+### Tablet Responsive Design
+
+![Tab View](src/assets/s4.png)
+
+_Mobile-friendly navigation and layout_
+
+### Mobile Responsive Design
+
 ![Mobile View](src/assets/s3.png)
 
+_Mobile-friendly navigation and layout_
 
-## **Installation**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Kanishkuu/E-Cell-Task.git
-
-2. Navigate to the project directory:
-   ```bash
-   cd E-cell Task
-
-3. Install dependencies:
-   ```bash
-   npm install
-
-4. Run the app locally:
-   ```bash
-   npm start 
-
-## **Technologies Used**
+## Technologies Used
 
 - React
+- React Router
 - Tailwind CSS
-- Vercel for deployment
 
+
+## Setup Instructions
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Kanishkuu/E-Cell-Task
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the development server
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```
+frontend/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── Grid.jsx
+│   └── App.js
+```
+
+## Features Explanation
+
+### Interactive Grid
+
+- 3x3 grid with color-changing cells
+- Click pattern memory game
+- Reset functionality
+
+### Profile Section
+
+- Personal information display
+- Instagram integration
+- Animated background
+- Hover effects
+
+### Navigation
+
+- Responsive navbar
+- Smooth transitions
+
+## Developer
+
+- **Name**: Kanishk Kabra
+- **Registration Number**: 20233154
+- [LinkedIn](https://www.linkedin.com/in/kanishk-kabra-469284280/)
 
